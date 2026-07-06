@@ -1,0 +1,146 @@
+{
+  "n_users": 6000,
+  "n_events": 31692,
+  "funnel": [
+    {
+      "step": "signup",
+      "users": 6000,
+      "pct_of_signups": 100.0,
+      "step_conversion": 100.0
+    },
+    {
+      "step": "verify_email",
+      "users": 5160,
+      "pct_of_signups": 86.0,
+      "step_conversion": 86.0
+    },
+    {
+      "step": "complete_profile",
+      "users": 4004,
+      "pct_of_signups": 66.7,
+      "step_conversion": 77.6
+    },
+    {
+      "step": "create_project",
+      "users": 2874,
+      "pct_of_signups": 47.9,
+      "step_conversion": 71.8
+    },
+    {
+      "step": "connect_source",
+      "users": 1235,
+      "pct_of_signups": 20.6,
+      "step_conversion": 43.0
+    },
+    {
+      "step": "first_dashboard",
+      "users": 1097,
+      "pct_of_signups": 18.3,
+      "step_conversion": 88.8
+    },
+    {
+      "step": "invite_teammate",
+      "users": 628,
+      "pct_of_signups": 10.5,
+      "step_conversion": 57.2
+    }
+  ],
+  "retention": {
+    "overall_w4_retention": 9.8,
+    "connected_w4_retention": 41.0,
+    "not_connected_w4_retention": 1.8,
+    "retention_lift_x": 22.8,
+    "pct_users_connected": 20.6
+  },
+  "by_channel": [
+    {
+      "channel": "referral",
+      "users": 861,
+      "pct_connected": 28.6,
+      "w4_retention": 15.0
+    },
+    {
+      "channel": "content",
+      "users": 1188,
+      "pct_connected": 24.1,
+      "w4_retention": 11.9
+    },
+    {
+      "channel": "outbound",
+      "users": 594,
+      "pct_connected": 20.9,
+      "w4_retention": 10.6
+    },
+    {
+      "channel": "organic_search",
+      "users": 1793,
+      "pct_connected": 20.1,
+      "w4_retention": 8.7
+    },
+    {
+      "channel": "paid_ads",
+      "users": 1564,
+      "pct_connected": 13.9,
+      "w4_retention": 6.5
+    }
+  ],
+  "by_plan": [
+    {
+      "plan": "business",
+      "users": 499,
+      "pct_connected": 20.8,
+      "w4_retention": 10.2
+    },
+    {
+      "plan": "free",
+      "users": 4232,
+      "pct_connected": 20.8,
+      "w4_retention": 9.9
+    },
+    {
+      "plan": "team",
+      "users": 1269,
+      "pct_connected": 19.9,
+      "w4_retention": 9.5
+    }
+  ],
+  "by_company_size": [
+    {
+      "company_size": "1-10",
+      "users": 2036,
+      "pct_connected": 19.4,
+      "w4_retention": 10.6
+    },
+    {
+      "company_size": "51-200",
+      "users": 1199,
+      "pct_connected": 21.9,
+      "w4_retention": 9.8
+    },
+    {
+      "company_size": "201-1000",
+      "users": 747,
+      "pct_connected": 19.0,
+      "w4_retention": 9.5
+    },
+    {
+      "company_size": "11-50",
+      "users": 1708,
+      "pct_connected": 21.8,
+      "w4_retention": 9.4
+    },
+    {
+      "company_size": "1000+",
+      "users": 310,
+      "pct_connected": 20.3,
+      "w4_retention": 8.7
+    }
+  ],
+  "upside": {
+    "current_connect_rate": 20.6,
+    "target_connect_rate": 60.0,
+    "added_retained_users_per_cohort": 927,
+    "current_retained_users": 591,
+    "relative_retention_gain_pct": 156.8
+  }
+}
